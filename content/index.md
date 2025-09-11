@@ -1,6 +1,33 @@
 ---
-title: Welcome to Quartz
+title: 欢迎来到NeuraSailor的知识花园😘
 ---
+> [!note]+ 更新中
+> [[1-机械臂搭建指南💯]]：涉及树莓派、ROS2、c++/python多领域，提供从零搭建机械臂的路径
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+> [!success]+ 已写完
+> > [!example]+ 学习笔记     
+> > [[常微分方程]]     
+> > [[大学物理]]    
+> > [[微积分Ⅱ]]     
+> 
+
+> [!info]+ 网站引路
+> 本网站基于Quartz静态生成，组织结构类似于笔记软件[Obsidian](https://obsidian.md/)，同时包含文件夹结构与双链结构。   
+> 
+> 你可以：
+> 1. **搜索特定笔记**。利用网站左上角的搜索功能，你可以直接定位含有对应关键词的文章。
+>
+> 2. **页面链接跳转**。根据网站首页（本页）的链接跳转到对应笔记，之后通过笔记中的链接逐级跳转。将鼠标悬浮于链接上，你可以预览文章内容。
+> 
+> 3. **利用目录导航**。网页左侧目录（Explorer）是文件夹结构，利用目录寻找相关文章。
+> 
+> 4. **利用[双向链接](https://nolebase-integrations.ayaka.io/pages/zh-CN/integrations/markdown-it-bi-directional-links/)导航**。鼠标悬浮到网页右侧的`Graph View`中并使用滚轮放大，你可以看到相互链接的笔记们。点击🔘进入对应笔记。
+> 
+> 如果你也在使用obsidian并且也想发布自己的网站，请阅读[文章](https://github.com/jackyzha0/quartz)
+
+
+
+
+> 
+
+
