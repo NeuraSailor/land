@@ -41,35 +41,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Explorer(),
   ],
   right: [
-    Component.Graph({
-      localGraph: {
-
-        depth: 1,                // 显示多少跳的关联笔记 (1 = 直接关联)
-        scale: 1.1,              // 默认视图缩放比例
-        repelForce: 1,         // 节点之间的排斥力 (0-1)
-        centerForce: 1,        // 居中力度 (0-1)
-        linkDistance: 30,        // 连接线的默认长度
-        fontSize: 0.6,           // 节点标签字体大小
-        opacityScale: 1,         // 缩放时标签淡出速度
-        removeTags: [],          // 从图谱中移除的标签
-        showTags: true,          // 是否显示标签节点
-        enableRadial: false,     // 是否启用径向约束（类似 Obsidian）
-      },
-      globalGraph: {
-        drag: true,
-        zoom: true,
-        depth: -1,               // -1 表示显示所有关联
-        scale: 0.9,              // 全局图谱默认更小的缩放
-        repelForce: 0.5,
-        centerForce: 0.3,
-        linkDistance: 30,
-        fontSize: 0.6,
-        opacityScale: 1,
-        removeTags: [],          // 可以设置如 ["private", "draft"] 隐藏特定标签
-        showTags: true,
-        enableRadial: true,      // 全局图谱通常启用径向约束
-      },
-    }),
+    Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],

@@ -53,7 +53,7 @@ export const defaultContentPageLayout: PageLayout = {
         opacityScale: 1,         // 缩放时标签淡出速度
         removeTags: [],          // 从图谱中移除的标签
         showTags: true,          // 是否显示标签节点
-        enableRadial: false,     // 是否启用径向约束（类似 Obsidian）
+        enableRadial: true,     // 是否启用径向约束（类似 Obsidian）
       },
       globalGraph: {
         drag: true,
