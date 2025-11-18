@@ -13,12 +13,12 @@
 
 `ros2 run create --build-type ament_cmake --liscence Apache-2.0 demo_cpp_pkg `  
 结果：  ****
-![|200](https://gitee.com/zjuwzy/obsidian_picture/raw/master/20250909191856932.png)  
+![[assets/67f2af1ac20b917fea21d786e6f54404_MD5.png|300]]  
 
 #### 编写功能包（编写节点与声明）
 
 在 src 下创建节点 `cpp_node.cpp`  
-![|250](https://gitee.com/zjuwzy/obsidian_picture/raw/master/20250909192137077.png)
+![[assets/34b25fd38f6f2b4fcd4e7ca529021d8d_MD5.png]]
 
 内容直接用 [[c++节点#节点内容]]
 
@@ -43,7 +43,7 @@ DESTINATION lib/${PROJECT_NAME}
 ```
 
 构建功能包后，会创建lib/cpp_node_pkg/cpp_node
-![](https://gitee.com/zjuwzy/obsidian_picture/raw/master/20250909195455417.png)
+![[assets/2321f193adc5f7eeba300aca3bc518ee_MD5.png]]
 
 
 #### 构建功能包  

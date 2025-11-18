@@ -16,20 +16,20 @@
 
 > [!note]-
 > 使用 ROS 2 命令行工具，创建一个名为 demo_python_pkg 的 Python 软件包，使用 ament_python 构建系统进行构建，并采用 Apache-2.0 许可协议。
-![](https://gitee.com/zjuwzy/obsidian_picture/raw/master/20250909121952000.png)
+![[assets/97681d521047feefed975dfbd7cb1266_MD5.png|300]]
 ⚠️upload failed, check dev console
 ⚠️upload failed, check dev console
 ⚠️upload failed, check dev console
 
 创建完成，生成文件如图：
 
-![|250](https://gitee.com/zjuwzy/obsidian_picture/raw/master/20250909151703489.png)  
+![[assets/8e8726548e769ba998a06188a7dce13e_MD5.png|300|300|300|300|300|300]]  
 
 #### 编写功能包  
 
 ##### 创建节点 `python_node.py`
 
-![|375](https://gitee.com/zjuwzy/obsidian_picture/raw/master/20250909153643924.png)
+![[assets/f2b9cc69ec885deee10730f739ce2604_MD5.png|300]]
 
 内容如下：
 
@@ -50,13 +50,13 @@ def main(): 
 ##### 声明  
 
 在 setup. Py 中声明  
-![|725](https://gitee.com/zjuwzy/obsidian_picture/raw/master/20250909154500438.png)
+![[assets/33481a020b22867d7bac4a755a5e8ee4_MD5.png|300]]
 
 ' 节点名 = 功能包名. 节点名. 函数名 '
 
 在功能包清单文件 package. Xml 中添加依赖 (非必要)
 
-![|725](https://gitee.com/zjuwzy/obsidian_picture/raw/master/20250909155049638.png)
+![[assets/63faf5fb9cc2ed6e7598b056cb13cedb_MD5.png|300]]
 
 功能包依赖 rclpy
 
@@ -85,11 +85,11 @@ def main(): 
 Python 中只是对文件拷贝并加上一层包装  
 新生成 3 个文件夹 build (构建过程中间文件)/install（构建结果文件夹）/log
 
-![1757404332138_d.png|300](https://gitee.com/zjuwzy/obsidian_picture/raw/master/20250909155400994.png)
+![[assets/4164407c0ef00884e2d3ae20e2c138eb_MD5.png|300]]
 
 **注意注意，进行到这里，install 文件为最终单独有用的文件**  把 install 文件复制给别人，别人就可以直接运行功能包了  
 Install 文件内部：  
-![1757405100466_d.png|300](https://gitee.com/zjuwzy/obsidian_picture/raw/master/20250909160503404.png)
+![[assets/71c7bac1e68cf553f6cbf7c2def88d38_MD5.png|300]]
 
 可执行文件 python_node 中运行的 main () 函数为 install 文件夹下 python_node. py 中的 main 函数，而非构建功能包前 demo_python_pkg 下的 [[#^nyva9o|python_node. py]] 中的 main 函数  
 
