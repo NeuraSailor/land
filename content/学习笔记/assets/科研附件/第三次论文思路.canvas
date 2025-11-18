@@ -1,0 +1,196 @@
+{
+	"edges": [
+		{
+			"fromNode": "b86d2122ecaed583",
+			"fromSide": "right",
+			"id": "7bfdd0fbf9c9bc72",
+			"styleAttributes": {},
+			"toNode": "119fdf9a6fa5a4cc",
+			"toSide": "left"
+		},
+		{
+			"fromNode": "b86d2122ecaed583",
+			"fromSide": "right",
+			"id": "31870f60253927b6",
+			"styleAttributes": {},
+			"toNode": "e6e4b82c5eb966b1",
+			"toSide": "left"
+		},
+		{
+			"fromNode": "b86d2122ecaed583",
+			"fromSide": "right",
+			"id": "2e19c02c0ca78c6d",
+			"styleAttributes": {},
+			"toNode": "f905cc94121c510c",
+			"toSide": "left"
+		},
+		{
+			"fromNode": "b86d2122ecaed583",
+			"fromSide": "right",
+			"id": "a5e8922526fff5ba",
+			"styleAttributes": {},
+			"toNode": "36a8c7509106879c",
+			"toSide": "left"
+		},
+		{
+			"fromNode": "b86d2122ecaed583",
+			"fromSide": "right",
+			"id": "313c2285e6be8a79",
+			"styleAttributes": {},
+			"toNode": "53593b004f118ee7",
+			"toSide": "left"
+		},
+		{
+			"fromNode": "119fdf9a6fa5a4cc",
+			"fromSide": "right",
+			"id": "5415bd12b4f428bb",
+			"styleAttributes": {},
+			"toNode": "5574f8b8d661cf86",
+			"toSide": "left"
+		},
+		{
+			"fromNode": "e6e4b82c5eb966b1",
+			"fromSide": "right",
+			"id": "a473a1e364539d28",
+			"styleAttributes": {},
+			"toNode": "55de82e962ca8b65",
+			"toSide": "left"
+		},
+		{
+			"fromNode": "f905cc94121c510c",
+			"fromSide": "right",
+			"id": "d2e7728d7d824872",
+			"styleAttributes": {},
+			"toNode": "4644669f7bbe69f3",
+			"toSide": "left"
+		},
+		{
+			"fromNode": "36a8c7509106879c",
+			"fromSide": "right",
+			"id": "18203bbae37dce95",
+			"styleAttributes": {},
+			"toNode": "862f78384cc01c73",
+			"toSide": "left"
+		},
+		{
+			"fromNode": "53593b004f118ee7",
+			"fromSide": "right",
+			"id": "d4bb51748a467ced",
+			"styleAttributes": {},
+			"toNode": "28254ac858c3d9bd",
+			"toSide": "left"
+		}
+	],
+	"nodes": [
+		{
+			"height": 88,
+			"id": "b86d2122ecaed583",
+			"styleAttributes": {},
+			"text": "以脑电图 （EEG） 形式从大脑收集的活动信号用于本文描述的系统",
+			"type": "text",
+			"width": 260,
+			"x": -360,
+			"y": -80
+		},
+		{
+			"height": 60,
+			"id": "53593b004f118ee7",
+			"styleAttributes": {},
+			"text": "控制",
+			"type": "text",
+			"width": 96,
+			"x": 0,
+			"y": 280
+		},
+		{
+			"height": 60,
+			"id": "f905cc94121c510c",
+			"styleAttributes": {},
+			"text": "特征提取",
+			"type": "text",
+			"width": 128,
+			"x": -8,
+			"y": 40
+		},
+		{
+			"height": 60,
+			"id": "36a8c7509106879c",
+			"styleAttributes": {},
+			"text": "分类",
+			"type": "text",
+			"width": 96,
+			"x": 0,
+			"y": 160
+		},
+		{
+			"height": 60,
+			"id": "119fdf9a6fa5a4cc",
+			"styleAttributes": {},
+			"text": "信号采集",
+			"type": "text",
+			"width": 128,
+			"x": -8,
+			"y": -220
+		},
+		{
+			"height": 60,
+			"id": "e6e4b82c5eb966b1",
+			"styleAttributes": {},
+			"text": "预处理",
+			"type": "text",
+			"width": 112,
+			"x": -8,
+			"y": -96
+		},
+		{
+			"height": 118,
+			"id": "5574f8b8d661cf86",
+			"styleAttributes": {},
+			"text": "信号采集系统直接捕获脑电图或任何其他来自大脑的信号。它还执行噪声消除、伪影处理等。",
+			"type": "text",
+			"width": 260,
+			"x": 180,
+			"y": -249
+		},
+		{
+			"height": 88,
+			"id": "55de82e962ca8b65",
+			"styleAttributes": {},
+			"text": "预处理块的目的是将信号转换为合适的形式以供进一步处理",
+			"type": "text",
+			"width": 260,
+			"x": 180,
+			"y": -110
+		},
+		{
+			"height": 87,
+			"id": "4644669f7bbe69f3",
+			"styleAttributes": {},
+			"text": "特征提取部分从信号中提取特征，形成特征向量，然后进行分类",
+			"type": "text",
+			"width": 260,
+			"x": 180,
+			"y": 27
+		},
+		{
+			"height": 117,
+			"id": "28254ac858c3d9bd",
+			"styleAttributes": {},
+			"text": "控制接口将分类信号转换为对连接的任何设备（例如轮椅或计算机）有意义的命令。",
+			"type": "text",
+			"width": 260,
+			"x": 180,
+			"y": 252
+		},
+		{
+			"height": 58,
+			"id": "862f78384cc01c73",
+			"styleAttributes": {},
+			"text": "分类模块使用信号的特征向量对信号进行分类",
+			"type": "text",
+			"width": 260,
+			"x": 180,
+			"y": 162
+		}
+	]
+}
